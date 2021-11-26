@@ -1,0 +1,2 @@
+<% routes.each do |route| %>
+route <%=route[:ip]%> <%=route[:mask]%> net_gateway 5<% end %>
